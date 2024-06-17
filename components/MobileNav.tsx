@@ -15,6 +15,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Footer from "./Footer";
 
 const MobileNav = ({user}: MobileNavProps) => {
 
@@ -37,9 +38,9 @@ const MobileNav = ({user}: MobileNavProps) => {
                     <Image src="/icons/logo.svg"
                     width={34}
                     height={34}
-                    alt='Horizon logo'
+                    alt='ZenWealth logo'
                     />
-                    <h1 className='text-26 font-ibm-flex-serif font-bold text-black-1'>Horizon</h1>
+                    <h1 className='text-26 font-ibm-flex-serif font-bold text-black-1'>ZenWealth</h1>
                 </Link>
                 <div className="mobilenav-sheet">
                     <SheetClose asChild>
@@ -72,7 +73,7 @@ const MobileNav = ({user}: MobileNavProps) => {
                         </nav>
                     </SheetClose>
 
-                    FOOTER
+                    <Footer user={user}/>
                 </div>
             </SheetContent>
         </Sheet>
