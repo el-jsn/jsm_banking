@@ -119,7 +119,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 ## <a name="screenshots">📷 Screenshots</a>
 
-![ZenBank Dashboard](![image](https://github.com/el-jsn/jsm_banking/assets/105888847/ec6ee3e2-eba3-4942-9fdd-aa1b842b538d)
+![ZenBank Dashboard](/screenshots/Dashboard.png)
 )
 *ZenBank's intuitive dashboard provides a comprehensive overview of your finances.*
 
