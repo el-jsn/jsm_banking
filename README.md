@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h3 align="center">ZenBank: A Modern Fintech Bank Application</h3>
 
-## Getting Started
+## 📋 <a name="table">Table of Contents</a>
 
-First, run the development server:
+1. 🌟 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🚀 [Benefits](#benefits)
+5. 🤸 [Quick Start](#quick-start)
+6. 📷 [Screenshots](#screenshots)
+
+## <a name="introduction">🌟 Introduction</a>
+
+ZenBank is a cutting-edge financial SaaS platform built with Next.js, designed to revolutionize personal banking experiences. It offers a seamless interface for managing multiple bank accounts, real-time transaction tracking, and effortless fund transfers between users.
+
+### Why ZenBank?
+
+In today's fast-paced digital world, managing finances across multiple accounts can be overwhelming. ZenBank simplifies this process by providing a unified platform that brings all your financial data together, offering insights and control like never before.
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- Next.js
+- TypeScript
+- Appwrite
+- Plaid
+- Dwolla
+- React Hook Form
+- Zod
+- TailwindCSS
+- Chart.js
+- ShadCN
+
+## <a name="features">🔋 Features</a>
+
+👉 **Authentication**: Ultra-secure SSR authentication with robust validations
+
+👉 **Multi-Bank Integration**: Connect and manage multiple bank accounts in one place
+
+👉 **Real-Time Transaction Tracking**: Stay updated with your financial activities as they happen
+
+👉 **Comprehensive Dashboard**: Get a bird's-eye view of your finances with total balance, recent transactions, and spending categories
+
+👉 **Inter-User Fund Transfers**: Easily transfer money to other ZenBank users
+
+👉 **Responsive Design**: Seamless experience across desktop, tablet, and mobile devices
+
+## <a name="benefits">🚀 Benefits</a>
+
+1. **Centralized Financial Management**: No more juggling between different banking apps
+2. **Enhanced Financial Visibility**: Gain insights into your spending patterns and account balances at a glance
+3. **Time-Saving**: Streamlined processes for account management and fund transfers
+4. **Security**: Built with modern security practices to keep your financial data safe
+5. **User-Friendly Interface**: Intuitive design for effortless navigation and management
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+**Prerequisites**
+
+To run the project following is required: 
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/el-jsn/jsm_banking.git
+cd jsm_banking
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Set Up Environment Variables**
+
+Create a new file named `.env` in the root of your project and add the following content:
+
+```env
+#NEXT
+NEXT_PUBLIC_SITE_URL=
+
+#APPWRITE
+NEXT_PUBLIC_APPWRITE_ENDPOINT=https://cloud.appwrite.io/v1
+NEXT_PUBLIC_APPWRITE_PROJECT=
+APPWRITE_DATABASE_ID=
+APPWRITE_USER_COLLECTION_ID=
+APPWRITE_BANK_COLLECTION_ID=
+APPWRITE_TRANSACTION_COLLECTION_ID=
+APPWRITE_SECRET=
+
+#PLAID
+PLAID_CLIENT_ID=
+PLAID_SECRET=
+PLAID_ENV=
+PLAID_PRODUCTS=
+PLAID_COUNTRY_CODES=
+
+#DWOLLA
+DWOLLA_KEY=
+DWOLLA_SECRET=
+DWOLLA_BASE_URL=https://api-sandbox.dwolla.com
+DWOLLA_ENV=sandbox
+```
+
+Replace the placeholder values with your actual respective account credentials.
+
+**Running the Project**
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## <a name="screenshots">📷 Screenshots</a>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![ZenBank Dashboard](![image](https://github.com/el-jsn/jsm_banking/assets/105888847/ec6ee3e2-eba3-4942-9fdd-aa1b842b538d)
+)
+*ZenBank's intuitive dashboard provides a comprehensive overview of your finances.*
 
-## Learn More
+![Transaction History](![image](https://github.com/el-jsn/jsm_banking/assets/105888847/35078fb4-622c-46f5-9d07-440fcc78f0c3)
+)
+*Easily track and categorize your spending with our detailed transaction history.*
 
-To learn more about Next.js, take a look at the following resources:
+- [Contributing Guidelines](https://github.com/your-username/zenbank/blob/main/CONTRIBUTING.md)
+- [License](https://github.com/your-username/zenbank/blob/main/LICENSE)
+- [Report an Issue](https://github.com/your-username/zenbank/issues)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Built with ❤️ by [Your Name/Team]
