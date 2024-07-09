@@ -64,8 +64,8 @@ To run the project following is required:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/banking.git
-cd banking
+git clone https://github.com/el-jsn/jsm_banking.git
+cd jsm_banking
 ```
 
 **Installation**
