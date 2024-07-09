@@ -120,11 +120,11 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 ## <a name="screenshots">📷 Screenshots</a>
 
 ![ZenBank Dashboard](/screenshots/Dashboard.png)
-)
+
 *ZenBank's intuitive dashboard provides a comprehensive overview of your finances.*
 
-![Transaction History](![image](https://github.com/el-jsn/jsm_banking/assets/105888847/35078fb4-622c-46f5-9d07-440fcc78f0c3)
-)
+![Transaction History](/screenshots/Transaction-History.png)
+
 *Easily track and categorize your spending with our detailed transaction history.*
 
 - [Contributing Guidelines](https://github.com/your-username/zenbank/blob/main/CONTRIBUTING.md)
