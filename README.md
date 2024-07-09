@@ -123,14 +123,12 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to view the 
 
 *ZenBank's intuitive dashboard provides a comprehensive overview of your finances.*
 
+
+
 ![Transaction History](/screenshots/Transaction-History.png)
 
 *Easily track and categorize your spending with our detailed transaction history.*
 
-- [Contributing Guidelines](https://github.com/your-username/zenbank/blob/main/CONTRIBUTING.md)
-- [License](https://github.com/your-username/zenbank/blob/main/LICENSE)
-- [Report an Issue](https://github.com/your-username/zenbank/issues)
-
 ---
 
-Built with ❤️ by [Your Name/Team]
+Built with ❤️
