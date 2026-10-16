@@ -1,62 +1,19 @@
-<h3 align="center">ZenBank: A Modern Fintech Bank Application</h3>
+# ZenBank
 
-## 📋 <a name="table">Table of Contents</a>
+An unfinished learning project based on JavaScript Mastery's [banking app tutorial](https://www.youtube.com/watch?v=PuOVqP_cjkE). I followed the tutorial and changed the project naming; I did not complete the implementation.
 
-1. 🌟 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🚀 [Benefits](#benefits)
-5. 🤸 [Quick Start](#quick-start)
-6. 📷 [Screenshots](#screenshots)
+The original project design and implementation approach come from the tutorial. This repository is kept as a record of my learning.
 
-## <a name="introduction">🌟 Introduction</a>
+## Stack
 
-ZenBank is a cutting-edge financial SaaS platform built with Next.js, designed to revolutionize personal banking experiences. It offers a seamless interface for managing multiple bank accounts, real-time transaction tracking, and effortless fund transfers between users.
+Next.js, TypeScript, Appwrite, Plaid, Dwolla, React Hook Form, Zod, Tailwind CSS, Chart.js, and shadcn/ui.
 
-### Why ZenBank?
+## Local setup
 
-In today's fast-paced digital world, managing finances across multiple accounts can be overwhelming. ZenBank simplifies this process by providing a unified platform that brings all your financial data together, offering insights and control like never before.
+The instructions below describe the existing development setup. Some flows may be incomplete.
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- TypeScript
-- Appwrite
-- Plaid
-- Dwolla
-- React Hook Form
-- Zod
-- TailwindCSS
-- Chart.js
-- ShadCN
-
-## <a name="features">🔋 Features</a>
-
-👉 **Authentication**: Ultra-secure SSR authentication with robust validations
-
-👉 **Multi-Bank Integration**: Connect and manage multiple bank accounts in one place
-
-👉 **Real-Time Transaction Tracking**: Stay updated with your financial activities as they happen
-
-👉 **Comprehensive Dashboard**: Get a bird's-eye view of your finances with total balance, recent transactions, and spending categories
-
-👉 **Inter-User Fund Transfers**: Easily transfer money to other ZenBank users
-
-👉 **Responsive Design**: Seamless experience across desktop, tablet, and mobile devices
-
-## <a name="benefits">🚀 Benefits</a>
-
-1. **Centralized Financial Management**: No more juggling between different banking apps
-2. **Enhanced Financial Visibility**: Gain insights into your spending patterns and account balances at a glance
-3. **Time-Saving**: Streamlined processes for account management and fund transfers
-4. **Security**: Built with modern security practices to keep your financial data safe
-5. **User-Friendly Interface**: Intuitive design for effortless navigation and management
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-**Prerequisites**
-
-To run the project following is required: 
+Prerequisites: 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
 - [npm](https://www.npmjs.com/) (Node Package Manager)
@@ -117,18 +74,8 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="screenshots">📷 Screenshots</a>
+## Screenshots
 
 ![ZenBank Dashboard](/screenshots/Dashboard.png)
 
-*ZenBank's intuitive dashboard provides a comprehensive overview of your finances.*
-
-
-
 ![Transaction History](/screenshots/Transaction-History.png)
-
-*Easily track and categorize your spending with our detailed transaction history.*
-
----
-
-Built with ❤️
